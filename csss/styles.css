@@ -1,0 +1,42 @@
+/* styles.css */
+
+.why-kucc-container {
+    display: flex;
+    height: 50vh; /* Full height of the viewport */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+}
+
+.image-container {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center; /* Horizontally center the image if needed */
+    align-items: center; /* Vertically center the image */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+}
+
+.text-container h2 {
+    font-size: 2em;
+    margin: 20px 0; /* Margin for spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    color: #333; /* Text color */
+}
+
+#animated-text {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333; /* Text color */
+    margin-top: 20px; /* Margin to ensure space between the heading and the text */
+}
